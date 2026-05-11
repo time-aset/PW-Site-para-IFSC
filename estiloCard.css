@@ -50,92 +50,93 @@ footer {
 /* --------------------style cards---------------------------------- */
 
 
-    
+
+.card {
+    background-color: rgba(98, 223, 56, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 230px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card img {
+    margin-top: 20px;
+    width: 215px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+
+.card-conteudo {
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-conteudo h2 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-conteudo h4 {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-conteudo p {
+    font-size: 0.9rem;
+    color: #555;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media (max-width: 500px) {
     .card {
-        background-color: rgba(98, 223, 56, 0.8);
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        overflow: hidden;
-        max-width: 600px;
-        text-align: center;
-        transition: transform 0.2s ease;
-        margin: 20px;
-        margin-top: 50px;
-       margin-left: 100px;
-       width: 230px;
+        max-width: 90%;
     }
-
-    .card:hover {
-        transform: translateY(-5px);
-    }
-
-    
-    .card img {
-        margin-top: 20px;
-        width: 215px;
-        height: 360px;
-        border-radius: 10px;
-    }
-
-    
-    .card-conteudo {
-        padding: 15px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    .card-conteudo h2 {
-        font-size: 1.4rem;
-        color: #333;
-        margin-bottom: 5px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    .card-conteudo h4 {
-        font-size: 1rem;
-        color: #777;
-        margin-bottom: 10px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    .card-conteudo p {
-        font-size: 0.9rem;
-        color: #555;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-   
-    @media (max-width: 500px) {
-        .card {
-            max-width: 90%;
-        }
-    }
+}
 
 
-    
+
 main {
-            flex: 1; 
-            padding: 20px;
-        }
-
-
-.siteParticipante{
-padding: 10px;
-background-color: rgb(39, 71, 6);
-color: rgb(183, 251, 115);
-text-decoration: none;
-font-size: 20px;
-border-radius: 10px;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-transition: transform 0.2s ease;
-display: inline-block;
+    flex: 1;
+    padding: 20px;
 }
 
-.siteParticipante:hover{
-transform: translateY(-5px);
+
+.siteParticipante {
+    padding: 10px;
+    background-color: rgb(39, 71, 6);
+    color: rgb(183, 251, 115);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform 0.2s ease;
+    display: inline-block;
 }
 
-.Participantes, h1{
-    background-color:rgba(98, 223, 56, 0.8);
+.siteParticipante:hover {
+    transform: translateY(-5px);
+}
+
+.Participantes,
+h1 {
+    background-color: rgba(98, 223, 56, 0.8);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 50px;
